@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>atguigu_ssm_learn</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>ssm-springboot-part</artifactId>
+    <packaging>pom</packaging>
+    <name>ssm-springboot-part Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>springboot-01-base-quick</module>
+        <module>springboot-02-base-application</module>
+        <module>springboot-03-starter-springmvc</module>
+        <module>springboot-04-base-druid</module>
+        <module>springboot-05-base-mybatis</module>
+    </modules>
+    <build>
+        <finalName>ssm-springboot-part</finalName>
+    </build>
+</project>

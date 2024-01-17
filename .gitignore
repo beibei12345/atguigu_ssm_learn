@@ -1,0 +1,21 @@
+# Project exclude paths
+/springboot-headline-part/target/
+/ssm-integration-part/ssm-01-integration/target/
+/ssm-integration-part/ssm-02-integration-todolist/target/
+/ssm-spring-part/spring-aop-09/target/
+/ssm-spring-part/spring-aop-10/target/
+/ssm-spring-part/spring-aop-11-xml/target/
+/ssm-spring-part/spring-config-06-ioc/target/
+/ssm-spring-part/spring-config-07-practice-annotation/target/
+/ssm-spring-part/spring-config-08-test/target/
+/ssm-spring-part/spring-tx-12-annotation/target/
+/ssm-spring-part/spring-xml-01-ioc/target/
+/ssm-spring-part/spring-xml-02-practice/target/
+/ssm-spring-part/spring-xml-03-annotation/target/
+/ssm-spring-part/spring-xml-04-practice-annotation/target/
+/ssm-springboot-part/springboot-01-base-quick/target/
+/ssm-springboot-part/springboot-02-base-application/target/
+/ssm-springboot-part/springboot-03-starter-springmvc/target/
+/ssm-springboot-part/springboot-04-base-druid/target/
+/ssm-springboot-part/springboot-05-base-mybatis/target/
+/ssm-springmvc-part/springmvc-01-base-quick/target/

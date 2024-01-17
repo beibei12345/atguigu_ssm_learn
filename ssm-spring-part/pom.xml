@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>atguigu_ssm_learn</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>ssm-spring-part</artifactId>
+    <packaging>pom</packaging>
+    <name>ssm-spring-part Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>spring-xml-01-ioc</module>
+        <module>spring-xml-02-practice</module>
+        <module>spring-xml-03-annotation</module>
+        <module>spring-xml-04-practice-annotation</module>
+        <module>spring-config-06-ioc</module>
+        <module>spring-config-07-practice-annotation</module>
+        <module>spring-config-08-test</module>
+        <module>spring-aop-09</module>
+        <module>spring-aop-10</module>
+        <module>spring-aop-11-xml</module>
+        <module>spring-tx-12-annotation</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>ssm-spring-part</finalName>
+    </build>
+</project>

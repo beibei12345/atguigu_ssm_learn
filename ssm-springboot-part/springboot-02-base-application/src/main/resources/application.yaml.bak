@@ -1,0 +1,14 @@
+spring:
+  jdbc:
+    datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql:///springboot_02
+      username: root
+      password: root
+      features:
+        - a
+        - b
+        - c
+
+server:
+  port: 80

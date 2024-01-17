@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="happyComponent" class="com.atguigu.ioc.ioc01.HappyComponent"/>
+
+    <bean id="clientService" class="com.atguigu.ioc.ioc01.ClientService" factory-method="createInstance"/>
+    <bean id="clientServiceString" class="com.atguigu.ioc.ioc01.ClientService" factory-method="generateOtherType"/>
+    <bean id="clientServiceString2" class="com.atguigu.ioc.ioc01.ClientService" factory-method="generateStrings"/>
+
+
+    <bean id="defaultServiceLocator" class="com.atguigu.ioc.ioc01.DefaultServiceLocator"/>
+    <bean id="clientService2" factory-bean="defaultServiceLocator" factory-method="createClientServiceInstance"/>
+    <bean id="clientService3" factory-bean="defaultServiceLocator" factory-method="createClientServiceInstance2"/>
+    <bean id="intstanceString" factory-bean="defaultServiceLocator" factory-method="getString" scope="prototype"/>
+</beans>
